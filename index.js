@@ -7,4 +7,4 @@ function Animal(species, name, breed, age, foodRequirements, waterConditions) {
   this.waterConditions = waterConditions;
 }
 
-var dog = new Animal('dog', 'Timmy', '3');
+var timmy = new Dog('dog', 'Timmy', '3');
