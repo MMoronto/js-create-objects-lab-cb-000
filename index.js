@@ -23,8 +23,8 @@ function Bird(name, breed) {
   this.breed = breed;
 }
 
-function Fish(species, name, waterConditions) {
-  this.species = species;
+function Fish(name, species, waterConditions) {
   this.name = name;
+  this.species = species;
   this.waterConditions = waterConditions;
 }
