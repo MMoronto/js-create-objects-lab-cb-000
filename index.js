@@ -1,4 +1,4 @@
-function Animal(species, name, breed, age, foodRequirements, waterConditions) {
+function Dog(species, name, breed, age, foodRequirements, waterConditions) {
   this.species = species;
   this.name = name;
   this.breed = breed;
@@ -7,4 +7,11 @@ function Animal(species, name, breed, age, foodRequirements, waterConditions) {
   this.waterConditions = waterConditions;
 }
 
-var timmy = new Dog('dog', 'Timmy', '3');
+function Dog(species, name, breed, age, foodRequirements, waterConditions) {
+  this.species = species;
+  this.name = name;
+  this.breed = breed;
+  this.age = age;
+  this.foodRequirements = foodRequirements;
+  this.waterConditions = waterConditions;
+}
